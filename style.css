@@ -1,0 +1,48 @@
+body {
+  background: url(image/bg.jpg) no-repeat center center fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+.quote {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+  padding: 25px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00373f;
+  border: 10px solid #003135;
+  height: auto;
+  width: 1000px;
+  padding: 30px 40px 30px 40px;
+  border-radius: 20px;
+}
+p {
+  width: auto;
+  color: white;
+}
+.click {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+#btn {
+  height: 50px;
+  width: 200px;
+  border: none;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  color: #003135;
+  border-radius: 10px;
+}
